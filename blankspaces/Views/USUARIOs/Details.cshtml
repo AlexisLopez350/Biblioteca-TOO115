@@ -1,0 +1,173 @@
+﻿@model blankspaces.Models.USUARIO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Sistema de gestión de usuarios</h2>
+
+<div>
+    <h4>Detalles de persona</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        @*
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ESTADO)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ESTADO)
+            </dd>
+
+                 <dt>
+                @Html.DisplayNameFor(model => model.CATERGORIA.NOMCAT)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CATERGORIA.NOMCAT)
+            </dd>
+
+
+
+
+        *@
+
+
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.NOMBRE)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.APELLIDO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.APELLIDO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.IDPERSONA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.IDPERSONA)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.FECHANACIMIENTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.FECHANACIMIENTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.GENERO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.GENERO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.DIRECCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.DIRECCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PERSONA.TELEFONO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PERSONA.TELEFONO)
+        </dd>
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDUSUARIO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDUSUARIO)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ROL.NOMROL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROL.NOMROL)
+        </dd>
+
+        @if (Model.IDROL == 4)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.PERSONA.DETALLEDEPERSONA.LUGARDEESTUDIOS)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PERSONA.DETALLEDEPERSONA.LUGARDEESTUDIOS)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PERSONA.DETALLEDEPERSONA.TRABAJA)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PERSONA.DETALLEDEPERSONA.TRABAJA)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PERSONA.DETALLEDEPERSONA.ESTUDIA)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PERSONA.DETALLEDEPERSONA.ESTUDIA)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PERSONA.DETALLEDEPERSONA.NOMBREPADRE)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PERSONA.DETALLEDEPERSONA.NOMBREPADRE)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PERSONA.DETALLEDEPERSONA.NOMBREMADRE)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PERSONA.DETALLEDEPERSONA.NOMBREMADRE)
+            </dd>
+        }
+
+
+
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Editar", new { id = Model.IDUSUARIO }) |
+    @Html.ActionLink("Regresar a lista", "Index")
+</p>
