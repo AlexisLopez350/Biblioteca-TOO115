@@ -19,7 +19,7 @@ namespace blankspaces.Controllers
         // GET: PERSONAs
         public ActionResult Index()
         {
-            var pERSONAs = db.PERSONAs.Include(p => p.DETALLEDEPERSONA);
+            var pERSONAs = db.PERSONAs.Include(p => p);
             return View(pERSONAs.ToList());
         }
 
@@ -85,7 +85,7 @@ namespace blankspaces.Controllers
                     //changes
                     var sql = "select max(iddetalle) from dbo.DETALLEDEPERSONA";
                     var total = db.Database.SqlQuery<int>(sql).First();
-                    Usuariovm.Persona1.IDDETALLE = total;
+                  
                     //changes
 
 
@@ -160,7 +160,7 @@ namespace blankspaces.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", pERSONA.IDDETALLE);
+            
             return View(pERSONA);
         }
 
@@ -177,7 +177,7 @@ namespace blankspaces.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", pERSONA.IDDETALLE);
+            
             return View(pERSONA);
         }
 

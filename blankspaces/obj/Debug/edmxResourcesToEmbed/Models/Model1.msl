@@ -14,6 +14,7 @@
         <MappingFragment StoreEntitySet="CATERGORIA">
           <ScalarProperty Name="IDCATEGORIA" ColumnName="IDCATEGORIA" />
           <ScalarProperty Name="CAT_IDCATEGORIA" ColumnName="CAT_IDCATEGORIA" />
+          <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
           <ScalarProperty Name="NOMCAT" ColumnName="NOMCAT" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -31,6 +32,7 @@
       <EntityTypeMapping TypeName="BibliotecaModel.DETALLEDEPERSONA">
         <MappingFragment StoreEntitySet="DETALLEDEPERSONA">
           <ScalarProperty Name="IDDETALLE" ColumnName="IDDETALLE" />
+          <ScalarProperty Name="IDPERSONA" ColumnName="IDPERSONA" />
           <ScalarProperty Name="LUGARDEESTUDIOS" ColumnName="LUGARDEESTUDIOS" />
           <ScalarProperty Name="TRABAJA" ColumnName="TRABAJA" />
           <ScalarProperty Name="ESTUDIA" ColumnName="ESTUDIA" />
@@ -52,11 +54,11 @@
       <EntityTypeMapping TypeName="BibliotecaModel.MATERIALBIBLIOGRAFICO">
         <MappingFragment StoreEntitySet="MATERIALBIBLIOGRAFICO">
           <ScalarProperty Name="IDMATBIBLIO" ColumnName="IDMATBIBLIO" />
-          <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
-          <ScalarProperty Name="IDTIPO" ColumnName="IDTIPO" />
           <ScalarProperty Name="IDLOCALIDAD" ColumnName="IDLOCALIDAD" />
           <ScalarProperty Name="IDCATEGORIA" ColumnName="IDCATEGORIA" />
-          <ScalarProperty Name="IDPRESTAMO" ColumnName="IDPRESTAMO" />
+          <ScalarProperty Name="IDTIPO" ColumnName="IDTIPO" />
+          <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
+          <ScalarProperty Name="REL_IDAUTOR" ColumnName="REL_IDAUTOR" />
           <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
           <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
           <ScalarProperty Name="SINOPSIS" ColumnName="SINOPSIS" />
@@ -84,7 +86,6 @@
       <EntityTypeMapping TypeName="BibliotecaModel.MUNICIPIO">
         <MappingFragment StoreEntitySet="MUNICIPIO">
           <ScalarProperty Name="IDMUNICIPIO" ColumnName="IDMUNICIPIO" />
-          <ScalarProperty Name="DUI" ColumnName="DUI" />
           <ScalarProperty Name="NOMMUN" ColumnName="NOMMUN" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -103,7 +104,7 @@
       <EntityTypeMapping TypeName="BibliotecaModel.PERSONA">
         <MappingFragment StoreEntitySet="PERSONA">
           <ScalarProperty Name="IDPERSONA" ColumnName="IDPERSONA" />
-          <ScalarProperty Name="IDDETALLE" ColumnName="IDDETALLE" />
+          <ScalarProperty Name="IDMUNICIPIO" ColumnName="IDMUNICIPIO" />
           <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
           <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
           <ScalarProperty Name="FECHANACIMIENTO" ColumnName="FECHANACIMIENTO" />
@@ -117,10 +118,18 @@
       <EntityTypeMapping TypeName="BibliotecaModel.PRESTAMO">
         <MappingFragment StoreEntitySet="PRESTAMO">
           <ScalarProperty Name="IDPRESTAMO" ColumnName="IDPRESTAMO" />
-          <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
           <ScalarProperty Name="IDMATBIBLIO" ColumnName="IDMATBIBLIO" />
+          <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
           <ScalarProperty Name="FECHADEPRESTAMO" ColumnName="FECHADEPRESTAMO" />
           <ScalarProperty Name="FECHADEENTREGA" ColumnName="FECHADEENTREGA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RELATIONSHIP_15">
+      <EntityTypeMapping TypeName="BibliotecaModel.RELATIONSHIP_15">
+        <MappingFragment StoreEntitySet="RELATIONSHIP_15">
+          <ScalarProperty Name="IDAUTOR" ColumnName="IDAUTOR" />
+          <ScalarProperty Name="IDMATBIBLIO" ColumnName="IDMATBIBLIO" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -144,23 +153,12 @@
       <EntityTypeMapping TypeName="BibliotecaModel.USUARIO">
         <MappingFragment StoreEntitySet="USUARIO">
           <ScalarProperty Name="IDUSUARIO" ColumnName="IDUSUARIO" />
-          <ScalarProperty Name="IDPRESTAMO" ColumnName="IDPRESTAMO" />
-          <ScalarProperty Name="IDROL" ColumnName="IDROL" />
           <ScalarProperty Name="IDPERSONA" ColumnName="IDPERSONA" />
-          <ScalarProperty Name="IDCATEGORIA" ColumnName="IDCATEGORIA" />
-          <ScalarProperty Name="IDMATBIBLIO" ColumnName="IDMATBIBLIO" />
+          <ScalarProperty Name="IDROL" ColumnName="IDROL" />
           <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
           <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <AssociationSetMapping Name="RELATIONSHIP_15" TypeName="BibliotecaModel.RELATIONSHIP_15" StoreEntitySet="RELATIONSHIP_15">
-      <EndProperty Name="AUTOR">
-        <ScalarProperty Name="IDAUTOR" ColumnName="IDAUTOR" />
-      </EndProperty>
-      <EndProperty Name="MATERIALBIBLIOGRAFICO">
-        <ScalarProperty Name="IDMATBIBLIO" ColumnName="IDMATBIBLIO" />
-      </EndProperty>
-    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping>

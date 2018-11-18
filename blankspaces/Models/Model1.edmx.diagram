@@ -4,41 +4,40 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="6c67b32848254447a845fe1214b962b6" Name="Diagram1">
-        <EntityTypeShape EntityType="BibliotecaModel.AUTOR" Width="1.5" PointX="6" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.CATERGORIA" Width="1.5" PointX="3.75" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.DEPARTAMENTO" Width="1.5" PointX="8.25" PointY="16" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.DETALLEDEPERSONA" Width="1.5" PointX="1.5" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.DOCUMENTOLOCALIDAD" Width="1.5" PointX="6" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.MATERIALBIBLIOGRAFICO" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.MENU" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.MUNICIPIO" Width="1.5" PointX="6" PointY="16" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.PENALIZACION" Width="1.5" PointX="8.25" PointY="12.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.PERSONA" Width="1.5" PointX="3.75" PointY="13.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.PRESTAMO" Width="1.5" PointX="10.5" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.ROL" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.TIPODOCUMENTO" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.USUARIO" Width="1.5" PointX="6" PointY="5.125" IsExpanded="true" />
-        <AssociationConnector Association="BibliotecaModel.FK_CATERGOR_RELATIONS_CATERGOR" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_RELATIONS_CATERGOR" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_RELATIONS_CATERGOR" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_DEPARTAM_RELATIONS_MUNICIPI" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_PERSONA_RELATIONS_DETALLED" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_RELATIONS_DOCUMENT" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_RELATIONS_PRESTAMO" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_RELATIONS_TIPODOCU" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_RELATIONS_USUARIO" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_PRESTAMO_RELATIONS_MATERIAL" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_RELATIONS_MATERIAL" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MENU_RELATIONS_MENU" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MENU_SEMUESTRA_ROL" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_MUNICIPI_RELATIONS_PERSONA" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_PENALIZA_RELATIONS_USUARIO" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_RELATIONS_PERSONA" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_PRESTAMO_RELATIONS_USUARIO" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_RELATIONS_PRESTAMO" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_RELATIONS_ROL" ManuallyRouted="false" />
-        <AssociationConnector Association="BibliotecaModel.RELATIONSHIP_15" ManuallyRouted="false" />
+      <Diagram DiagramId="39d397d4f1664a94aeba9f84f5979885" Name="Diagram1">
+        <EntityTypeShape EntityType="BibliotecaModel.AUTOR" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.CATERGORIA" Width="1.5" PointX="10.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.DEPARTAMENTO" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.DETALLEDEPERSONA" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.DOCUMENTOLOCALIDAD" Width="1.5" PointX="10.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.MATERIALBIBLIOGRAFICO" Width="1.5" PointX="12.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.MENU" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.MUNICIPIO" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.PENALIZACION" Width="1.5" PointX="10.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.PERSONA" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.PRESTAMO" Width="1.5" PointX="15" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.RELATIONSHIP_15" Width="1.5" PointX="10.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.ROL" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.TIPODOCUMENTO" Width="1.5" PointX="10.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.USUARIO" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="BibliotecaModel.FK_RELATION_RELATIONS_AUTOR" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_CATERGOR_FK_CATERG_CATERGOR" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_CATERGOR_REFERENCE_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_FK_MATERI_CATERGOR" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_DEPARTAM_REFERENCE_MUNICIPI" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_DETALLED_REFERENCE_PERSONA" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_FK_MATERI_DOCUMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_FK_MATERI_TIPODOCU" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_REFERENCE_RELATION" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MATERIAL_REFERENCE_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_PRESTAMO_FK_PRESTA_MATERIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MENU_FK_MENU_R_MENU" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_MENU_FK_MENU_S_ROL" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_PERSONA_REFERENCE_MUNICIPI" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_PENALIZA_FK_PENALI_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_FK_USUARI_PERSONA" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_PRESTAMO_FK_PRESTA_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_USUARIO_REFERENCE_ROL" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

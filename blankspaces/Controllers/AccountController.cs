@@ -17,6 +17,7 @@ namespace blankspaces.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private BibliotecaEntities1 db = new BibliotecaEntities1();
 
         public AccountController()
         {
