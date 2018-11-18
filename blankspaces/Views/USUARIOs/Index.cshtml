@@ -1,0 +1,61 @@
+﻿
+@model IEnumerable<blankspaces.Models.USUARIO>
+
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+
+<h2>Sistema de gestión de usuario</h2>
+
+<p>
+    @Html.ActionLink("Ingresar nueva persona", "Crear", "PERSONAs")
+</p>
+<table class="table">
+    <tr>
+
+
+
+        <th>
+            @Html.DisplayNameFor(model => model.PERSONA.NOMBRE)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.PERSONA.APELLIDO)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.IDUSUARIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ROL.NOMROL)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.PERSONA.NOMBRE)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PERSONA.APELLIDO)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.IDUSUARIO)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ROL.NOMROL)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "Editar", new { id = item.IDUSUARIO }) |
+        @Html.ActionLink("Detalles", "Details", new { id = item.IDUSUARIO }) |
+        @Html.ActionLink("Eliminar", "Delete", new { id = item.IDUSUARIO })
+    </td>
+</tr>
+}
+
+</table>
