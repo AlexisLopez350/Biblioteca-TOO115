@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliotecaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AUTOR">
+    <Key>
+      <PropertyRef Name="IDAUTOR" />
+    </Key>
+    <Property Name="IDAUTOR" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="CATERGORIA">
+    <Key>
+      <PropertyRef Name="IDCATEGORIA" />
+    </Key>
+    <Property Name="IDCATEGORIA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CAT_IDCATEGORIA" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" />
+    <Property Name="NOMCAT" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="DEPARTAMENTO">
+    <Key>
+      <PropertyRef Name="IDDEP" />
+    </Key>
+    <Property Name="IDDEP" Type="int" Nullable="false" />
+    <Property Name="IDMUNICIPIO" Type="int" Nullable="false" />
+    <Property Name="NOMDEP" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="DETALLEDEPERSONA">
+    <Key>
+      <PropertyRef Name="IDDETALLE" />
+    </Key>
+    <Property Name="IDDETALLE" Type="int" Nullable="false" />
+    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" />
+    <Property Name="LUGARDEESTUDIOS" Type="varchar" MaxLength="255" />
+    <Property Name="TRABAJA" Type="bit" />
+    <Property Name="ESTUDIA" Type="bit" />
+    <Property Name="NOMBREMADRE" Type="varchar" MaxLength="255" />
+    <Property Name="NOMBREPADRE" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="DOCUMENTOLOCALIDAD">
+    <Key>
+      <PropertyRef Name="IDLOCALIDAD" />
+    </Key>
+    <Property Name="IDLOCALIDAD" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LOCALIDADFISICOODIGITAL" Type="bit" />
+    <Property Name="LOCACIONOURL" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="MATERIALBIBLIOGRAFICO">
+    <Key>
+      <PropertyRef Name="IDMATBIBLIO" />
+    </Key>
+    <Property Name="IDMATBIBLIO" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="IDLOCALIDAD" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="IDCATEGORIA" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="IDTIPO" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" />
+    <Property Name="REL_IDAUTOR" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="1024" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="1024" />
+    <Property Name="SINOPSIS" Type="varchar" MaxLength="1024" />
+    <Property Name="FECHA" Type="datetime" />
+    <Property Name="VOLUMEN" Type="int" />
+    <Property Name="UNIDADES" Type="varchar" MaxLength="1024" />
+    <Property Name="EDITORIAL" Type="varchar" MaxLength="1024" />
+    <Property Name="LENGUAJE" Type="varchar" MaxLength="1024" />
+    <Property Name="FOTO" Type="varchar" MaxLength="1024" />
+    <Property Name="IDAUTOR" Type="int" />
+  </EntityType>
+  <EntityType Name="MENU">
+    <Key>
+      <PropertyRef Name="IDMENU" />
+    </Key>
+    <Property Name="IDMENU" Type="int" Nullable="false" />
+    <Property Name="IDROL" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="MEN_IDMENU" Type="int" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="MUNICIPIO">
+    <Key>
+      <PropertyRef Name="IDMUNICIPIO" />
+    </Key>
+    <Property Name="IDMUNICIPIO" Type="int" Nullable="false" />
+    <Property Name="NOMMUN" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="PENALIZACION">
+    <Key>
+      <PropertyRef Name="IDPE" />
+    </Key>
+    <Property Name="IDPE" Type="int" Nullable="false" />
+    <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FECHAINI" Type="datetime" />
+    <Property Name="FECHAFIN" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PERSONA">
+    <Key>
+      <PropertyRef Name="IDPERSONA" />
+    </Key>
+    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="IDMUNICIPIO" Type="int" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="APELLIDO" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="FECHANACIMIENTO" Type="datetime" />
+    <Property Name="GENERO" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TELEFONO" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRESTAMO">
+    <Key>
+      <PropertyRef Name="IDPRESTAMO" />
+    </Key>
+    <Property Name="IDPRESTAMO" Type="int" Nullable="false" />
+    <Property Name="IDMATBIBLIO" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" />
+    <Property Name="FECHADEPRESTAMO" Type="varchar" MaxLength="1024" />
+    <Property Name="FECHADEENTREGA" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="RELATIONSHIP_15">
+    <Key>
+      <PropertyRef Name="IDAUTOR" />
+      <PropertyRef Name="IDMATBIBLIO" />
+    </Key>
+    <Property Name="IDAUTOR" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="IDMATBIBLIO" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ROL">
+    <Key>
+      <PropertyRef Name="IDROL" />
+    </Key>
+    <Property Name="IDROL" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMROL" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TIPODOCUMENTO">
+    <Key>
+      <PropertyRef Name="IDTIPO" />
+    </Key>
+    <Property Name="IDTIPO" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TIPODOCUMENTO" Type="varchar" MaxLength="1024" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="IDUSUARIO" />
+    </Key>
+    <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="IDROL" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="CONTRASENA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="ESTADO" Type="int" />
+  </EntityType>
+  <Association Name="FK_CATERGOR_FK_CATERG_CATERGOR">
+    <End Role="CATERGORIA" Type="Self.CATERGORIA" Multiplicity="0..1" />
+    <End Role="CATERGORIA1" Type="Self.CATERGORIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATERGORIA">
+        <PropertyRef Name="IDCATEGORIA" />
+      </Principal>
+      <Dependent Role="CATERGORIA1">
+        <PropertyRef Name="CAT_IDCATEGORIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CATERGOR_REFERENCE_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="CATERGORIA" Type="Self.CATERGORIA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Principal>
+      <Dependent Role="CATERGORIA">
+        <PropertyRef Name="IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DEPARTAM_REFERENCE_MUNICIPI">
+    <End Role="MUNICIPIO" Type="Self.MUNICIPIO" Multiplicity="1" />
+    <End Role="DEPARTAMENTO" Type="Self.DEPARTAMENTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUNICIPIO">
+        <PropertyRef Name="IDMUNICIPIO" />
+      </Principal>
+      <Dependent Role="DEPARTAMENTO">
+        <PropertyRef Name="IDMUNICIPIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLED_REFERENCE_PERSONA">
+    <End Role="PERSONA" Type="Self.PERSONA" Multiplicity="0..1" />
+    <End Role="DETALLEDEPERSONA" Type="Self.DETALLEDEPERSONA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PERSONA">
+        <PropertyRef Name="IDPERSONA" />
+      </Principal>
+      <Dependent Role="DETALLEDEPERSONA">
+        <PropertyRef Name="IDPERSONA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MATERIAL_FK_MATERI_CATERGOR">
+    <End Role="CATERGORIA" Type="Self.CATERGORIA" Multiplicity="0..1" />
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATERGORIA">
+        <PropertyRef Name="IDCATEGORIA" />
+      </Principal>
+      <Dependent Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="IDCATEGORIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MATERIAL_FK_MATERI_DOCUMENT">
+    <End Role="DOCUMENTOLOCALIDAD" Type="Self.DOCUMENTOLOCALIDAD" Multiplicity="0..1" />
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DOCUMENTOLOCALIDAD">
+        <PropertyRef Name="IDLOCALIDAD" />
+      </Principal>
+      <Dependent Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="IDLOCALIDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MATERIAL_FK_MATERI_TIPODOCU">
+    <End Role="TIPODOCUMENTO" Type="Self.TIPODOCUMENTO" Multiplicity="0..1" />
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPODOCUMENTO">
+        <PropertyRef Name="IDTIPO" />
+      </Principal>
+      <Dependent Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="IDTIPO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MATERIAL_REFERENCE_RELATION">
+    <End Role="RELATIONSHIP_15" Type="Self.RELATIONSHIP_15" Multiplicity="0..1" />
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RELATIONSHIP_15">
+        <PropertyRef Name="IDAUTOR" />
+        <PropertyRef Name="IDMATBIBLIO" />
+      </Principal>
+      <Dependent Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="REL_IDAUTOR" />
+        <PropertyRef Name="IDMATBIBLIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MATERIAL_REFERENCE_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Principal>
+      <Dependent Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MENU_FK_MENU_R_MENU">
+    <End Role="MENU" Type="Self.MENU" Multiplicity="0..1" />
+    <End Role="MENU1" Type="Self.MENU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MENU">
+        <PropertyRef Name="IDMENU" />
+      </Principal>
+      <Dependent Role="MENU1">
+        <PropertyRef Name="MEN_IDMENU" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MENU_FK_MENU_S_ROL">
+    <End Role="ROL" Type="Self.ROL" Multiplicity="0..1" />
+    <End Role="MENU" Type="Self.MENU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROL">
+        <PropertyRef Name="IDROL" />
+      </Principal>
+      <Dependent Role="MENU">
+        <PropertyRef Name="IDROL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PENALIZA_FK_PENALI_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="PENALIZACION" Type="Self.PENALIZACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Principal>
+      <Dependent Role="PENALIZACION">
+        <PropertyRef Name="IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PERSONA_REFERENCE_MUNICIPI">
+    <End Role="MUNICIPIO" Type="Self.MUNICIPIO" Multiplicity="0..1" />
+    <End Role="PERSONA" Type="Self.PERSONA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUNICIPIO">
+        <PropertyRef Name="IDMUNICIPIO" />
+      </Principal>
+      <Dependent Role="PERSONA">
+        <PropertyRef Name="IDMUNICIPIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRESTAMO_FK_PRESTA_MATERIAL">
+    <End Role="MATERIALBIBLIOGRAFICO" Type="Self.MATERIALBIBLIOGRAFICO" Multiplicity="0..1" />
+    <End Role="PRESTAMO" Type="Self.PRESTAMO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MATERIALBIBLIOGRAFICO">
+        <PropertyRef Name="IDMATBIBLIO" />
+      </Principal>
+      <Dependent Role="PRESTAMO">
+        <PropertyRef Name="IDMATBIBLIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRESTAMO_FK_PRESTA_USUARIO">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="PRESTAMO" Type="Self.PRESTAMO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Principal>
+      <Dependent Role="PRESTAMO">
+        <PropertyRef Name="IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RELATION_RELATIONS_AUTOR">
+    <End Role="AUTOR" Type="Self.AUTOR" Multiplicity="1" />
+    <End Role="RELATIONSHIP_15" Type="Self.RELATIONSHIP_15" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUTOR">
+        <PropertyRef Name="IDAUTOR" />
+      </Principal>
+      <Dependent Role="RELATIONSHIP_15">
+        <PropertyRef Name="IDAUTOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO_FK_USUARI_PERSONA">
+    <End Role="PERSONA" Type="Self.PERSONA" Multiplicity="1" />
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PERSONA">
+        <PropertyRef Name="IDPERSONA" />
+      </Principal>
+      <Dependent Role="USUARIO">
+        <PropertyRef Name="IDPERSONA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_USUARIO_REFERENCE_ROL">
+    <End Role="ROL" Type="Self.ROL" Multiplicity="0..1" />
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROL">
+        <PropertyRef Name="IDROL" />
+      </Principal>
+      <Dependent Role="USUARIO">
+        <PropertyRef Name="IDROL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BibliotecaModelStoreContainer">
+    <EntitySet Name="AUTOR" EntityType="Self.AUTOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CATERGORIA" EntityType="Self.CATERGORIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DEPARTAMENTO" EntityType="Self.DEPARTAMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DETALLEDEPERSONA" EntityType="Self.DETALLEDEPERSONA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DOCUMENTOLOCALIDAD" EntityType="Self.DOCUMENTOLOCALIDAD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MATERIALBIBLIOGRAFICO" EntityType="Self.MATERIALBIBLIOGRAFICO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MENU" EntityType="Self.MENU" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MUNICIPIO" EntityType="Self.MUNICIPIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PENALIZACION" EntityType="Self.PENALIZACION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PERSONA" EntityType="Self.PERSONA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRESTAMO" EntityType="Self.PRESTAMO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RELATIONSHIP_15" EntityType="Self.RELATIONSHIP_15" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ROL" EntityType="Self.ROL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPODOCUMENTO" EntityType="Self.TIPODOCUMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CATERGOR_FK_CATERG_CATERGOR" Association="Self.FK_CATERGOR_FK_CATERG_CATERGOR">
+      <End Role="CATERGORIA" EntitySet="CATERGORIA" />
+      <End Role="CATERGORIA1" EntitySet="CATERGORIA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CATERGOR_REFERENCE_USUARIO" Association="Self.FK_CATERGOR_REFERENCE_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="CATERGORIA" EntitySet="CATERGORIA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DEPARTAM_REFERENCE_MUNICIPI" Association="Self.FK_DEPARTAM_REFERENCE_MUNICIPI">
+      <End Role="MUNICIPIO" EntitySet="MUNICIPIO" />
+      <End Role="DEPARTAMENTO" EntitySet="DEPARTAMENTO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLED_REFERENCE_PERSONA" Association="Self.FK_DETALLED_REFERENCE_PERSONA">
+      <End Role="PERSONA" EntitySet="PERSONA" />
+      <End Role="DETALLEDEPERSONA" EntitySet="DETALLEDEPERSONA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MATERIAL_FK_MATERI_CATERGOR" Association="Self.FK_MATERIAL_FK_MATERI_CATERGOR">
+      <End Role="CATERGORIA" EntitySet="CATERGORIA" />
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MATERIAL_FK_MATERI_DOCUMENT" Association="Self.FK_MATERIAL_FK_MATERI_DOCUMENT">
+      <End Role="DOCUMENTOLOCALIDAD" EntitySet="DOCUMENTOLOCALIDAD" />
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MATERIAL_FK_MATERI_TIPODOCU" Association="Self.FK_MATERIAL_FK_MATERI_TIPODOCU">
+      <End Role="TIPODOCUMENTO" EntitySet="TIPODOCUMENTO" />
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MATERIAL_REFERENCE_RELATION" Association="Self.FK_MATERIAL_REFERENCE_RELATION">
+      <End Role="RELATIONSHIP_15" EntitySet="RELATIONSHIP_15" />
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MATERIAL_REFERENCE_USUARIO" Association="Self.FK_MATERIAL_REFERENCE_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MENU_FK_MENU_R_MENU" Association="Self.FK_MENU_FK_MENU_R_MENU">
+      <End Role="MENU" EntitySet="MENU" />
+      <End Role="MENU1" EntitySet="MENU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MENU_FK_MENU_S_ROL" Association="Self.FK_MENU_FK_MENU_S_ROL">
+      <End Role="ROL" EntitySet="ROL" />
+      <End Role="MENU" EntitySet="MENU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PENALIZA_FK_PENALI_USUARIO" Association="Self.FK_PENALIZA_FK_PENALI_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PENALIZACION" EntitySet="PENALIZACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PERSONA_REFERENCE_MUNICIPI" Association="Self.FK_PERSONA_REFERENCE_MUNICIPI">
+      <End Role="MUNICIPIO" EntitySet="MUNICIPIO" />
+      <End Role="PERSONA" EntitySet="PERSONA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRESTAMO_FK_PRESTA_MATERIAL" Association="Self.FK_PRESTAMO_FK_PRESTA_MATERIAL">
+      <End Role="MATERIALBIBLIOGRAFICO" EntitySet="MATERIALBIBLIOGRAFICO" />
+      <End Role="PRESTAMO" EntitySet="PRESTAMO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRESTAMO_FK_PRESTA_USUARIO" Association="Self.FK_PRESTAMO_FK_PRESTA_USUARIO">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PRESTAMO" EntitySet="PRESTAMO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RELATION_RELATIONS_AUTOR" Association="Self.FK_RELATION_RELATIONS_AUTOR">
+      <End Role="AUTOR" EntitySet="AUTOR" />
+      <End Role="RELATIONSHIP_15" EntitySet="RELATIONSHIP_15" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO_FK_USUARI_PERSONA" Association="Self.FK_USUARIO_FK_USUARI_PERSONA">
+      <End Role="PERSONA" EntitySet="PERSONA" />
+      <End Role="USUARIO" EntitySet="USUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_USUARIO_REFERENCE_ROL" Association="Self.FK_USUARIO_REFERENCE_ROL">
+      <End Role="ROL" EntitySet="ROL" />
+      <End Role="USUARIO" EntitySet="USUARIO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
