@@ -21,7 +21,7 @@ namespace blankspaces.Models
             this.USUARIOs = new HashSet<USUARIO>();
         }
     
-        public int IDROL { get; set; }
+        public decimal IDROL { get; set; }
         public string NOMROL { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

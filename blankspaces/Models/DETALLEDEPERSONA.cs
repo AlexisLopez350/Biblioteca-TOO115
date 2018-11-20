@@ -11,29 +11,17 @@ namespace blankspaces.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class DETALLEDEPERSONA
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public DETALLEDEPERSONA()
-        {
-            this.PERSONAs = new HashSet<PERSONA>();
-        }
-
         public int IDDETALLE { get; set; }
-        [Display(Name = "Lugar de estudios:")]
+        public string IDPERSONA { get; set; }
         public string LUGARDEESTUDIOS { get; set; }
-        [Display(Name = "Trabaja:")]
-        public bool TRABAJA { get; set; }
-        [Display(Name = "Estudia:")]
-        public bool ESTUDIA { get; set; }
-        [Display(Name = "Nombre de madre:")]
+        public Nullable<bool> TRABAJA { get; set; }
+        public Nullable<bool> ESTUDIA { get; set; }
         public string NOMBREMADRE { get; set; }
-        [Display(Name = "Nombre de padre:")]
         public string NOMBREPADRE { get; set; }
-
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<PERSONA> PERSONAs { get; set; }
+    
+        public virtual PERSONA PERSONA { get; set; }
     }
 }

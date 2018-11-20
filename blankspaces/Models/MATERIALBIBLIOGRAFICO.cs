@@ -18,16 +18,14 @@ namespace blankspaces.Models
         public MATERIALBIBLIOGRAFICO()
         {
             this.PRESTAMOes = new HashSet<PRESTAMO>();
-            this.USUARIOs = new HashSet<USUARIO>();
-            this.AUTORs = new HashSet<AUTOR>();
         }
     
-        public int IDMATBIBLIO { get; set; }
+        public decimal IDMATBIBLIO { get; set; }
+        public Nullable<decimal> IDLOCALIDAD { get; set; }
+        public Nullable<decimal> IDCATEGORIA { get; set; }
+        public Nullable<decimal> IDTIPO { get; set; }
         public string IDUSUARIO { get; set; }
-        public Nullable<int> IDTIPO { get; set; }
-        public Nullable<int> IDLOCALIDAD { get; set; }
-        public Nullable<int> IDCATEGORIA { get; set; }
-        public Nullable<int> IDPRESTAMO { get; set; }
+        public Nullable<decimal> REL_IDAUTOR { get; set; }
         public string NOMBRE { get; set; }
         public string DESCRIPCION { get; set; }
         public string SINOPSIS { get; set; }
@@ -41,14 +39,10 @@ namespace blankspaces.Models
     
         public virtual CATERGORIA CATERGORIA { get; set; }
         public virtual DOCUMENTOLOCALIDAD DOCUMENTOLOCALIDAD { get; set; }
-        public virtual PRESTAMO PRESTAMO { get; set; }
         public virtual TIPODOCUMENTO TIPODOCUMENTO { get; set; }
+        public virtual RELATIONSHIP_15 RELATIONSHIP_15 { get; set; }
         public virtual USUARIO USUARIO { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PRESTAMO> PRESTAMOes { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<USUARIO> USUARIOs { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<AUTOR> AUTORs { get; set; }
     }
 }

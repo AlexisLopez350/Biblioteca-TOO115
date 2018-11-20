@@ -118,3 +118,363 @@ C:\Users\vgonz\source\repos\blankspaces\blankspaces\obj\Debug\blankspaces.csproj
 C:\Users\vgonz\source\repos\blankspaces\blankspaces\obj\Debug\blankspaces.csproj.CopyComplete
 C:\Users\vgonz\source\repos\blankspaces\blankspaces\obj\Debug\blankspaces.dll
 C:\Users\vgonz\source\repos\blankspaces\blankspaces\obj\Debug\blankspaces.pdb
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\ApplicationInsights.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.dll.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.pdb
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.exe
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.exe.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.rsp
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.exe
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.exe.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.rsp
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.AppContext.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Console.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.exe
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.exe.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.rsp
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Antlr3.Runtime.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.SqlServer.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Web.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Newtonsoft.Json.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Owin.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Helpers.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Mvc.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Optimization.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Razor.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\WebGrease.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Helpers.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Mvc.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Optimization.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Razor.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Newtonsoft.Json.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Antlr3.Runtime.pdb
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.SqlServer.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Web.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csprojAssemblyReference.cache
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csproj.CoreCompileInputs.cache
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csproj.CopyComplete
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.dll
+C:\Users\Alexis Lopez\Documents\GitHub\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.pdb
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\ApplicationInsights.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.dll.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\blankspaces.pdb
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.exe
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.exe.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csc.rsp
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.exe
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.exe.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\csi.rsp
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.AppContext.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Console.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Compression.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.IO.Pipes.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Claims.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.ValueTuple.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.exe
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.exe.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\vbc.rsp
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\VBCSCompiler.exe
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Antlr3.Runtime.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.SqlServer.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Web.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Newtonsoft.Json.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Owin.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Helpers.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Mvc.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Optimization.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Razor.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Razor.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\WebGrease.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Helpers.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Mvc.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Optimization.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.Razor.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Web.WebPages.Razor.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Newtonsoft.Json.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Antlr3.Runtime.pdb
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\EntityFramework.SqlServer.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.AI.Web.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csprojAssemblyReference.cache
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csproj.CoreCompileInputs.cache
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.csproj.CopyComplete
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.dll
+C:\Users\vgonz\Desktop\Etapa2\Biblioteca-TOO115\blankspaces\obj\Debug\blankspaces.pdb
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\obj\Debug\blankspaces.csprojAssemblyReference.cache
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\obj\Debug\blankspaces.csproj.CoreCompileInputs.cache
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\obj\Debug\blankspaces.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\obj\Debug\blankspaces.pdb
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\ApplicationInsights.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\blankspaces.dll.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\blankspaces.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\blankspaces.pdb
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csc.exe
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csc.exe.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csc.rsp
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csi.exe
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csi.exe.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\csi.rsp
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.AppContext.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Console.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.IO.Compression.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.IO.Pipes.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Claims.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.ValueTuple.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\vbc.exe
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\vbc.exe.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\vbc.rsp
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\VBCSCompiler.exe
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Antlr3.Runtime.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\EntityFramework.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\EntityFramework.SqlServer.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.Web.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Newtonsoft.Json.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Owin.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Helpers.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Mvc.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Optimization.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Razor.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.Razor.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\WebGrease.dll
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Helpers.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Mvc.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Optimization.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.Razor.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Web.WebPages.Razor.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Newtonsoft.Json.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Antlr3.Runtime.pdb
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\EntityFramework.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\EntityFramework.SqlServer.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.AI.Web.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vgonz\Desktop\Biblioteca-TOO115(1)\blankspaces\obj\Debug\blankspaces.csproj.CopyComplete

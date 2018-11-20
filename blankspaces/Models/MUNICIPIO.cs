@@ -18,14 +18,15 @@ namespace blankspaces.Models
         public MUNICIPIO()
         {
             this.DEPARTAMENTOes = new HashSet<DEPARTAMENTO>();
+            this.PERSONAs = new HashSet<PERSONA>();
         }
     
         public int IDMUNICIPIO { get; set; }
-        public string DUI { get; set; }
         public string NOMMUN { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DEPARTAMENTO> DEPARTAMENTOes { get; set; }
-        public virtual PERSONA PERSONA { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<PERSONA> PERSONAs { get; set; }
     }
 }

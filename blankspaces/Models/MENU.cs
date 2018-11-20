@@ -21,7 +21,7 @@ namespace blankspaces.Models
         }
     
         public int IDMENU { get; set; }
-        public Nullable<int> IDROL { get; set; }
+        public Nullable<decimal> IDROL { get; set; }
         public Nullable<int> MEN_IDMENU { get; set; }
         public string NOMBRE { get; set; }
     

@@ -20,7 +20,7 @@ namespace blankspaces.Models
             this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
         }
     
-        public int IDLOCALIDAD { get; set; }
+        public decimal IDLOCALIDAD { get; set; }
         public Nullable<bool> LOCALIDADFISICOODIGITAL { get; set; }
         public string LOCACIONOURL { get; set; }
     

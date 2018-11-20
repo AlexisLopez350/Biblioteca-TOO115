@@ -11,60 +11,33 @@ namespace blankspaces.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.ComponentModel.DataAnnotations;
-    using System.Web.Mvc;
-
-    //[MetadataType(typeof(USUARIOMetadata))]
+    
     public partial class USUARIO
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-
         public USUARIO()
         {
+            this.CATERGORIAs = new HashSet<CATERGORIA>();
             this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
             this.PENALIZACIONs = new HashSet<PENALIZACION>();
             this.PRESTAMOes = new HashSet<PRESTAMO>();
         }
-
-        [Remote("IsUserNameAvailable", "USUARIOs", ErrorMessage = "Ya existe el nombre de usuario.")]
-        [Required(ErrorMessage = "Campo obligario")]
-        [Display(Name = "Nombre de Usuario:")]
+    
         public string IDUSUARIO { get; set; }
-        public Nullable<int> IDPRESTAMO { get; set; }
-
-        [Required(ErrorMessage = "Campo obligario")]
-        [Display(Name = "Rol del Usuario:")]
-
-        public int IDROL { get; set; }
-
-        [Display(Name = "DUI:")]
         public string IDPERSONA { get; set; }
-        public Nullable<int> IDCATEGORIA { get; set; }
-        public Nullable<int> IDMATBIBLIO { get; set; }
-        [Required(ErrorMessage = "Campo obligario")]
-        [Display(Name = "Contraseña:")]
-        //[DataType(DataType.Password)] // decide if include it or not.
+        public Nullable<decimal> IDROL { get; set; }
         public string CONTRASENA { get; set; }
         public Nullable<int> ESTADO { get; set; }
-
-        public virtual CATERGORIA CATERGORIA { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CATERGORIA> CATERGORIAs { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MATERIALBIBLIOGRAFICO> MATERIALBIBLIOGRAFICOes { get; set; }
-        public virtual MATERIALBIBLIOGRAFICO MATERIALBIBLIOGRAFICO { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PENALIZACION> PENALIZACIONs { get; set; }
         public virtual PERSONA PERSONA { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PRESTAMO> PRESTAMOes { get; set; }
-        public virtual PRESTAMO PRESTAMO { get; set; }
         public virtual ROL ROL { get; set; }
     }
-
-    // public class USUARIOMetadata
-    // {
-
-    //public string IDUSUARIO { get; set; }
-    //}
 }
-

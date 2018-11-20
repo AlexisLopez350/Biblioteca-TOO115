@@ -17,13 +17,13 @@ namespace blankspaces.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public AUTOR()
         {
-            this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
+            this.RELATIONSHIP_15 = new HashSet<RELATIONSHIP_15>();
         }
     
-        public int IDAUTOR { get; set; }
+        public decimal IDAUTOR { get; set; }
         public string NOMBRE { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MATERIALBIBLIOGRAFICO> MATERIALBIBLIOGRAFICOes { get; set; }
+        public virtual ICollection<RELATIONSHIP_15> RELATIONSHIP_15 { get; set; }
     }
 }

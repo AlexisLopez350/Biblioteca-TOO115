@@ -14,12 +14,12 @@ namespace blankspaces.Controllers
 {
     public class PERSONAsController : Controller
     {
-        private BibliotecaEntities1 db = new BibliotecaEntities1();
+        private BibliotecaEntities db = new BibliotecaEntities();
 
         // GET: PERSONAs
         public ActionResult Index()
         {
-            var pERSONAs = db.PERSONAs.Include(p => p.DETALLEDEPERSONA);
+            var pERSONAs = db.PERSONAs.Include(p => p.IDPERSONA);
             return View(pERSONAs.ToList());
         }
 
@@ -79,22 +79,28 @@ namespace blankspaces.Controllers
                 //Usuariovm.Persona1.IDDETALLE = total;
                 if (ModelState.IsValid)
                 {
+                    db.PERSONAs.Add(Usuariovm.Persona1);
+                    db.SaveChanges();
+
+                    //var sql = "select max(IDPERSONA) from dbo.PERSONA";
+                    //var total = db.Database.SqlQuery<string>(sql).First();
+                    Usuariovm.Detalledepersona1.IDPERSONA =Usuariovm.Persona1.IDPERSONA;
+
+
 
                     db.DETALLEDEPERSONAs.Add(Usuariovm.Detalledepersona1);
                     db.SaveChanges();
-                    //changes
-                    var sql = "select max(iddetalle) from dbo.DETALLEDEPERSONA";
-                    var total = db.Database.SqlQuery<int>(sql).First();
-                    Usuariovm.Persona1.IDDETALLE = total;
-                    //changes
+                   
+                    
+                  
+                   
 
 
-                    db.PERSONAs.Add(Usuariovm.Persona1);
-                    db.SaveChanges();
-                    //return RedirectToAction("Index");
-                    // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
-                    //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                    return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = Usuariovm.Persona1.IDPERSONA }));
+                    //db.PERSONAs.Add(Usuariovm.Persona1);
+                    //db.SaveChanges();
+
+                    
+                    return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "Account", Action = "Register", Id = Usuariovm.Persona1.IDPERSONA }));
                 }
 
 
@@ -113,7 +119,7 @@ namespace blankspaces.Controllers
                 //return RedirectToAction("Index");
                 // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
                 //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = Usuariovm.Persona1.IDPERSONA }));
+                return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "Account", Action = "Register", Id = Usuariovm.Persona1.IDPERSONA }));
             }
 
 
@@ -141,10 +147,10 @@ namespace blankspaces.Controllers
                 //return RedirectToAction("Index");
                 // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
                 //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = pERSONA.IDPERSONA }));
+                return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "AccountController", Action = "Register", Id = pERSONA.IDPERSONA }));
             }
 
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", new { id = 5 });
+            
             return View(pERSONA);
         }
 
@@ -160,7 +166,7 @@ namespace blankspaces.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", pERSONA.IDDETALLE);
+            
             return View(pERSONA);
         }
 
@@ -177,7 +183,7 @@ namespace blankspaces.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", pERSONA.IDDETALLE);
+            
             return View(pERSONA);
         }
 

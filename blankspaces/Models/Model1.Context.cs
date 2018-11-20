@@ -13,10 +13,10 @@ namespace blankspaces.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BibliotecaEntities1 : DbContext
+    public partial class BibliotecaEntities : DbContext
     {
-        public BibliotecaEntities1()
-            : base("name=BibliotecaEntities1")
+        public BibliotecaEntities()
+            : base("name=BibliotecaEntities")
         {
         }
     
@@ -25,6 +25,11 @@ namespace blankspaces.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
+        public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
+        public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+        public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
         public virtual DbSet<AUTOR> AUTORs { get; set; }
         public virtual DbSet<CATERGORIA> CATERGORIAs { get; set; }
         public virtual DbSet<DEPARTAMENTO> DEPARTAMENTOes { get; set; }
@@ -36,6 +41,7 @@ namespace blankspaces.Models
         public virtual DbSet<PENALIZACION> PENALIZACIONs { get; set; }
         public virtual DbSet<PERSONA> PERSONAs { get; set; }
         public virtual DbSet<PRESTAMO> PRESTAMOes { get; set; }
+        public virtual DbSet<RELATIONSHIP_15> RELATIONSHIP_15 { get; set; }
         public virtual DbSet<ROL> ROLs { get; set; }
         public virtual DbSet<TIPODOCUMENTO> TIPODOCUMENTOes { get; set; }
         public virtual DbSet<USUARIO> USUARIOs { get; set; }

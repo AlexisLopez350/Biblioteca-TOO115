@@ -12,7 +12,7 @@ namespace blankspaces.Controllers
 {
     public class DETALLEDEPERSONAsController : Controller
     {
-        private BibliotecaEntities1 db = new BibliotecaEntities1();
+        private BibliotecaEntities db = new BibliotecaEntities();
 
         // GET: DETALLEDEPERSONAs
         public ActionResult Index()

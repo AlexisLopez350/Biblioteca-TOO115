@@ -19,19 +19,18 @@ namespace blankspaces.Models
         {
             this.CATERGORIA1 = new HashSet<CATERGORIA>();
             this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
-            this.USUARIOs = new HashSet<USUARIO>();
         }
     
-        public int IDCATEGORIA { get; set; }
-        public Nullable<int> CAT_IDCATEGORIA { get; set; }
+        public decimal IDCATEGORIA { get; set; }
+        public Nullable<decimal> CAT_IDCATEGORIA { get; set; }
+        public string IDUSUARIO { get; set; }
         public string NOMCAT { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CATERGORIA> CATERGORIA1 { get; set; }
         public virtual CATERGORIA CATERGORIA2 { get; set; }
+        public virtual USUARIO USUARIO { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MATERIALBIBLIOGRAFICO> MATERIALBIBLIOGRAFICOes { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<USUARIO> USUARIOs { get; set; }
     }
 }

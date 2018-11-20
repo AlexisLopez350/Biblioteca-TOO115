@@ -14,24 +14,13 @@ namespace blankspaces.Models
     
     public partial class PRESTAMO
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public PRESTAMO()
-        {
-            this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
-            this.USUARIOs = new HashSet<USUARIO>();
-        }
-    
         public int IDPRESTAMO { get; set; }
+        public Nullable<decimal> IDMATBIBLIO { get; set; }
         public string IDUSUARIO { get; set; }
-        public Nullable<int> IDMATBIBLIO { get; set; }
         public string FECHADEPRESTAMO { get; set; }
         public string FECHADEENTREGA { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MATERIALBIBLIOGRAFICO> MATERIALBIBLIOGRAFICOes { get; set; }
         public virtual MATERIALBIBLIOGRAFICO MATERIALBIBLIOGRAFICO { get; set; }
         public virtual USUARIO USUARIO { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<USUARIO> USUARIOs { get; set; }
     }
 }

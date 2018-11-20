@@ -20,7 +20,7 @@ namespace blankspaces.Models
             this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
         }
     
-        public int IDTIPO { get; set; }
+        public decimal IDTIPO { get; set; }
         public string TIPODOCUMENTO1 { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

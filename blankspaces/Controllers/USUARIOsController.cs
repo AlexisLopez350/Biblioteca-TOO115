@@ -13,12 +13,12 @@ namespace blankspaces.Controllers
 {
     public class USUARIOsController : Controller
     {
-        private BibliotecaEntities1 db = new BibliotecaEntities1();
+        private BibliotecaEntities db = new BibliotecaEntities();
 
         // GET: USUARIOs
         public ActionResult Index()
         {
-            var uSUARIOs = db.USUARIOs.Include(u => u.CATERGORIA).Include(u => u.MATERIALBIBLIOGRAFICO).Include(u => u.PERSONA).Include(u => u.PRESTAMO).Include(u => u.ROL);
+            var uSUARIOs = db.USUARIOs.Include(u => u.PERSONA).Include(u => u.ROL);
             return View(uSUARIOs.ToList());
         }
 
@@ -56,10 +56,8 @@ namespace blankspaces.Controllers
 
             ViewBag.justtesting = id;
 
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT");
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO");
+           
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "NOMBRE");
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO");
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL");
             return View(Usuariovm);
         }
@@ -82,10 +80,8 @@ namespace blankspaces.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT", uSUARIO.IDCATEGORIA);
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO", uSUARIO.IDMATBIBLIO);
+            
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "NOMBRE", uSUARIO.IDPERSONA);
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO", uSUARIO.IDPRESTAMO);
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL", uSUARIO.IDROL);
             return View(uSUARIO);
         }
@@ -102,10 +98,8 @@ namespace blankspaces.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT", uSUARIO.IDCATEGORIA);
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO", uSUARIO.IDMATBIBLIO);
+
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "NOMBRE", uSUARIO.IDPERSONA);
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO", uSUARIO.IDPRESTAMO);
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL", uSUARIO.IDROL);
             return View(uSUARIO);
         }
@@ -123,10 +117,8 @@ namespace blankspaces.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT", uSUARIO.IDCATEGORIA);
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO", uSUARIO.IDMATBIBLIO);
+
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "NOMBRE", uSUARIO.IDPERSONA);
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO", uSUARIO.IDPRESTAMO);
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL", uSUARIO.IDROL);
             return View(uSUARIO);
         }
@@ -156,17 +148,6 @@ namespace blankspaces.Controllers
 
 
 
-
-
-            //if (Usuariovm.Persona1.IDDETALLE.HasValue)
-            //{
-            DETALLEDEPERSONA dETALLEDEPERSONA = db.DETALLEDEPERSONAs.Find(Usuariovm.Persona1.IDDETALLE);//check it out
-            Usuariovm.Detalledepersona1 = dETALLEDEPERSONA;
-
-            //}
-
-
-
             // var iddetalle = Usuariovm.Persona1.IDDETALLE;
             //DETALLEDEPERSONA dETALLEDEPERSONA = db.DETALLEDEPERSONAs.Find(iddetalle); // view viewbag
 
@@ -174,10 +155,8 @@ namespace blankspaces.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT", uSUARIO.IDCATEGORIA);
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO", uSUARIO.IDMATBIBLIO);
+
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "DUI", uSUARIO.IDPERSONA);
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO", uSUARIO.IDPRESTAMO);
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL", uSUARIO.IDROL);
             return View(Usuariovm);
         }
@@ -216,20 +195,7 @@ namespace blankspaces.Controllers
                 }*/
 
 
-            if (Usuariovm.Persona1.IDDETALLE.HasValue) //has value
 
-            {
-                db.Entry(uSUARIO).State = EntityState.Modified;
-                db.SaveChanges();
-
-                db.Entry(pERSONA).State = EntityState.Modified;
-                db.SaveChanges();
-                db.Entry(Usuariovm.Detalledepersona1).State = EntityState.Modified;
-                db.SaveChanges();
-
-                return RedirectToAction("Index");
-
-            }
 
             if (ModelState.IsValid)
             {
@@ -252,10 +218,9 @@ namespace blankspaces.Controllers
 
 
 
-            ViewBag.IDCATEGORIA = new SelectList(db.CATERGORIAs, "IDCATEGORIA", "NOMCAT", uSUARIO.IDCATEGORIA);
-            ViewBag.IDMATBIBLIO = new SelectList(db.MATERIALBIBLIOGRAFICOes, "IDMATBIBLIO", "IDUSUARIO", uSUARIO.IDMATBIBLIO);
+
             ViewBag.IDPERSONA = new SelectList(db.PERSONAs, "IDPERSONA", "DUI", uSUARIO.IDPERSONA);
-            ViewBag.IDPRESTAMO = new SelectList(db.PRESTAMOes, "IDPRESTAMO", "IDUSUARIO", uSUARIO.IDPRESTAMO);
+
             ViewBag.IDROL = new SelectList(db.ROLs, "IDROL", "NOMROL", uSUARIO.IDROL);
             return View(uSUARIO);
         }
