@@ -4,12 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="b628c48cb3ec4abeaf72eebcb19bf9f7" Name="Diagram1">
+      <Diagram DiagramId="9ea56e1d22a34a428f8b805718c716d6" Name="Diagram1">
         <EntityTypeShape EntityType="BibliotecaModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.AspNetRole" Width="1.5" PointX="12.75" PointY="14.5" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.AspNetUserClaim" Width="1.5" PointX="17.25" PointY="13" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.AspNetUserLogin" Width="1.5" PointX="17.25" PointY="15.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="BibliotecaModel.AspNetUser" Width="1.5" PointX="15" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.AspNetUser" Width="1.5" PointX="15" PointY="13.25" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.AUTOR" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.CATERGORIA" Width="1.5" PointX="10.5" PointY="7" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.DEPARTAMENTO" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />

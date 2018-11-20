@@ -17,7 +17,7 @@ namespace blankspaces.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-        private BibliotecaEntities1 db = new BibliotecaEntities1();
+        private BibliotecaEntities db = new BibliotecaEntities();
 
         public AccountController()
         {
@@ -156,7 +156,7 @@ namespace blankspaces.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, id };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email};
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

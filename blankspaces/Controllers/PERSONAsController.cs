@@ -14,7 +14,7 @@ namespace blankspaces.Controllers
 {
     public class PERSONAsController : Controller
     {
-        private BibliotecaEntities1 db = new BibliotecaEntities1();
+        private BibliotecaEntities db = new BibliotecaEntities();
 
         // GET: PERSONAs
         public ActionResult Index()
@@ -79,21 +79,27 @@ namespace blankspaces.Controllers
                 //Usuariovm.Persona1.IDDETALLE = total;
                 if (ModelState.IsValid)
                 {
+                    db.PERSONAs.Add(Usuariovm.Persona1);
+                    db.SaveChanges();
+
+                    //var sql = "select max(IDPERSONA) from dbo.PERSONA";
+                    //var total = db.Database.SqlQuery<string>(sql).First();
+                    Usuariovm.Detalledepersona1.IDPERSONA =Usuariovm.Persona1.IDPERSONA;
+
+
 
                     db.DETALLEDEPERSONAs.Add(Usuariovm.Detalledepersona1);
                     db.SaveChanges();
-                    //changes
-                    var sql = "select max(iddetalle) from dbo.DETALLEDEPERSONA";
-                    var total = db.Database.SqlQuery<int>(sql).First();
+                   
+                    
                   
-                    //changes
+                   
 
 
-                    db.PERSONAs.Add(Usuariovm.Persona1);
-                    db.SaveChanges();
-                    //return RedirectToAction("Index");
-                    // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
-                    //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
+                    //db.PERSONAs.Add(Usuariovm.Persona1);
+                    //db.SaveChanges();
+
+                    
                     return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "Account", Action = "Register", Id = Usuariovm.Persona1.IDPERSONA }));
                 }
 

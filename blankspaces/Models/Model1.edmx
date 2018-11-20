@@ -65,6 +65,7 @@
           <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
           <Property Name="AccessFailedCount" Type="int" Nullable="false" />
           <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="IdPersona" Type="nvarchar" MaxLength="255" Nullable="false" />
         </EntityType>
         <EntityType Name="AUTOR">
           <Key>
@@ -94,8 +95,8 @@
           <Key>
             <PropertyRef Name="IDDETALLE" />
           </Key>
-          <Property Name="IDDETALLE" Type="int" Nullable="false" />
-          <Property Name="IDPERSONA" Type="varchar" MaxLength="255" />
+          <Property Name="IDDETALLE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" />
           <Property Name="LUGARDEESTUDIOS" Type="varchar" MaxLength="255" />
           <Property Name="TRABAJA" Type="bit" />
           <Property Name="ESTUDIA" Type="bit" />
@@ -160,7 +161,7 @@
           <Key>
             <PropertyRef Name="IDPERSONA" />
           </Key>
-          <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" Nullable="false" />
           <Property Name="IDMUNICIPIO" Type="int" />
           <Property Name="NOMBRE" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="APELLIDO" Type="varchar" MaxLength="255" Nullable="false" />
@@ -206,7 +207,7 @@
             <PropertyRef Name="IDUSUARIO" />
           </Key>
           <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" Nullable="false" />
-          <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" Nullable="false" />
           <Property Name="IDROL" Type="numeric" Precision="18" Scale="0" />
           <Property Name="CONTRASENA" Type="varchar" MaxLength="255" Nullable="false" />
           <Property Name="ESTADO" Type="int" />
@@ -656,6 +657,7 @@
           <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
           <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
           <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IdPersona" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
           <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
           <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
@@ -694,8 +696,8 @@
           <Key>
             <PropertyRef Name="IDDETALLE" />
           </Key>
-          <Property Name="IDDETALLE" Type="Int32" Nullable="false" />
-          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IDDETALLE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="LUGARDEESTUDIOS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="TRABAJA" Type="Boolean" />
           <Property Name="ESTUDIA" Type="Boolean" />
@@ -774,7 +776,7 @@
           <Key>
             <PropertyRef Name="IDPERSONA" />
           </Key>
-          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IDMUNICIPIO" Type="Int32" />
           <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="APELLIDO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
@@ -830,7 +832,7 @@
             <PropertyRef Name="IDUSUARIO" />
           </Key>
           <Property Name="IDUSUARIO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IDPERSONA" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IDROL" Type="Decimal" Precision="18" Scale="0" />
           <Property Name="CONTRASENA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="ESTADO" Type="Int32" />
@@ -1091,7 +1093,7 @@
           <End Role="AspNetRoles" Type="Self.AspNetRole" Multiplicity="*" />
           <End Role="AspNetUsers" Type="Self.AspNetUser" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="BibliotecaEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="BibliotecaEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
           <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRole" />
           <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaim" />
@@ -1202,7 +1204,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="BibliotecaModelStoreContainer" CdmEntityContainer="BibliotecaEntities1">
+        <EntityContainerMapping StorageEntityContainer="BibliotecaModelStoreContainer" CdmEntityContainer="BibliotecaEntities">
           <EntitySetMapping Name="C__MigrationHistory">
             <EntityTypeMapping TypeName="BibliotecaModel.C__MigrationHistory">
               <MappingFragment StoreEntitySet="__MigrationHistory">
@@ -1255,6 +1257,7 @@
                 <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
                 <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="IdPersona" ColumnName="IdPersona" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

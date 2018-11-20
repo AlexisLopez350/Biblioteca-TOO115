@@ -13,10 +13,10 @@ namespace blankspaces.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BibliotecaEntities1 : DbContext
+    public partial class BibliotecaEntities : DbContext
     {
-        public BibliotecaEntities1()
-            : base("name=BibliotecaEntities1")
+        public BibliotecaEntities()
+            : base("name=BibliotecaEntities")
         {
         }
     

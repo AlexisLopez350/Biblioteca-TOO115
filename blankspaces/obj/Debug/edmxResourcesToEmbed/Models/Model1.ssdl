@@ -60,6 +60,7 @@
     <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
     <Property Name="AccessFailedCount" Type="int" Nullable="false" />
     <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="IdPersona" Type="nvarchar" MaxLength="255" Nullable="false" />
   </EntityType>
   <EntityType Name="AUTOR">
     <Key>
@@ -89,8 +90,8 @@
     <Key>
       <PropertyRef Name="IDDETALLE" />
     </Key>
-    <Property Name="IDDETALLE" Type="int" Nullable="false" />
-    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" />
+    <Property Name="IDDETALLE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" />
     <Property Name="LUGARDEESTUDIOS" Type="varchar" MaxLength="255" />
     <Property Name="TRABAJA" Type="bit" />
     <Property Name="ESTUDIA" Type="bit" />
@@ -155,7 +156,7 @@
     <Key>
       <PropertyRef Name="IDPERSONA" />
     </Key>
-    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" Nullable="false" />
     <Property Name="IDMUNICIPIO" Type="int" />
     <Property Name="NOMBRE" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="APELLIDO" Type="varchar" MaxLength="255" Nullable="false" />
@@ -201,7 +202,7 @@
       <PropertyRef Name="IDUSUARIO" />
     </Key>
     <Property Name="IDUSUARIO" Type="varchar" MaxLength="255" Nullable="false" />
-    <Property Name="IDPERSONA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="IDPERSONA" Type="nvarchar" MaxLength="255" Nullable="false" />
     <Property Name="IDROL" Type="numeric" Precision="18" Scale="0" />
     <Property Name="CONTRASENA" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="ESTADO" Type="int" />
