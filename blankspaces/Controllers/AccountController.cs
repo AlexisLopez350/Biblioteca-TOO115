@@ -138,9 +138,13 @@ namespace blankspaces.Controllers
         //
         // GET: /Account/Register
         [AllowAnonymous]
-        public ActionResult Register()
+        public ActionResult Register(String id)
         {
-            return View();
+            RegisterViewModel rm = new RegisterViewModel();
+            AspNetUser user = new AspNetUser();
+            user.IdPersona = id;
+            rm.Usuario1 = user;
+            return View(rm);
         }
 
         //
@@ -152,7 +156,7 @@ namespace blankspaces.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, id };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

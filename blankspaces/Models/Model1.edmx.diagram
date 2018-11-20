@@ -4,7 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="39d397d4f1664a94aeba9f84f5979885" Name="Diagram1">
+      <Diagram DiagramId="b628c48cb3ec4abeaf72eebcb19bf9f7" Name="Diagram1">
+        <EntityTypeShape EntityType="BibliotecaModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.AspNetRole" Width="1.5" PointX="12.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.AspNetUserClaim" Width="1.5" PointX="17.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.AspNetUserLogin" Width="1.5" PointX="17.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BibliotecaModel.AspNetUser" Width="1.5" PointX="15" PointY="13.375" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.AUTOR" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.CATERGORIA" Width="1.5" PointX="10.5" PointY="7" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.DEPARTAMENTO" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
@@ -20,6 +25,8 @@
         <EntityTypeShape EntityType="BibliotecaModel.ROL" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.TIPODOCUMENTO" Width="1.5" PointX="10.5" PointY="15.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BibliotecaModel.USUARIO" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="BibliotecaModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
         <AssociationConnector Association="BibliotecaModel.FK_RELATION_RELATIONS_AUTOR" ManuallyRouted="false" />
         <AssociationConnector Association="BibliotecaModel.FK_CATERGOR_FK_CATERG_CATERGOR" ManuallyRouted="false" />
         <AssociationConnector Association="BibliotecaModel.FK_CATERGOR_REFERENCE_USUARIO" ManuallyRouted="false" />
@@ -38,6 +45,7 @@
         <AssociationConnector Association="BibliotecaModel.FK_USUARIO_FK_USUARI_PERSONA" ManuallyRouted="false" />
         <AssociationConnector Association="BibliotecaModel.FK_PRESTAMO_FK_PRESTA_USUARIO" ManuallyRouted="false" />
         <AssociationConnector Association="BibliotecaModel.FK_USUARIO_REFERENCE_ROL" ManuallyRouted="false" />
+        <AssociationConnector Association="BibliotecaModel.AspNetUserRoles" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

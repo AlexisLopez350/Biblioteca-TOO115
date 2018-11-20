@@ -12,15 +12,11 @@ namespace blankspaces.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class PRESTAMO
+    public partial class C__MigrationHistory
     {
-        public int IDPRESTAMO { get; set; }
-        public Nullable<decimal> IDMATBIBLIO { get; set; }
-        public string IDUSUARIO { get; set; }
-        public string FECHADEPRESTAMO { get; set; }
-        public string FECHADEENTREGA { get; set; }
-    
-        public virtual MATERIALBIBLIOGRAFICO MATERIALBIBLIOGRAFICO { get; set; }
-        public virtual USUARIO USUARIO { get; set; }
+        public string MigrationId { get; set; }
+        public string ContextKey { get; set; }
+        public byte[] Model { get; set; }
+        public string ProductVersion { get; set; }
     }
 }

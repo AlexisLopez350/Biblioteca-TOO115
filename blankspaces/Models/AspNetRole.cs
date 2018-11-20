@@ -12,19 +12,18 @@ namespace blankspaces.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class RELATIONSHIP_15
+    public partial class AspNetRole
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public RELATIONSHIP_15()
+        public AspNetRole()
         {
-            this.MATERIALBIBLIOGRAFICOes = new HashSet<MATERIALBIBLIOGRAFICO>();
+            this.AspNetUsers = new HashSet<AspNetUser>();
         }
     
-        public decimal IDAUTOR { get; set; }
-        public decimal IDMATBIBLIO { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
     
-        public virtual AUTOR AUTOR { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MATERIALBIBLIOGRAFICO> MATERIALBIBLIOGRAFICOes { get; set; }
+        public virtual ICollection<AspNetUser> AspNetUsers { get; set; }
     }
 }

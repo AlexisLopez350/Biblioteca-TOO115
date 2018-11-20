@@ -19,7 +19,7 @@ namespace blankspaces.Controllers
         // GET: PERSONAs
         public ActionResult Index()
         {
-            var pERSONAs = db.PERSONAs.Include(p => p);
+            var pERSONAs = db.PERSONAs.Include(p => p.IDPERSONA);
             return View(pERSONAs.ToList());
         }
 
@@ -94,7 +94,7 @@ namespace blankspaces.Controllers
                     //return RedirectToAction("Index");
                     // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
                     //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                    return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = Usuariovm.Persona1.IDPERSONA }));
+                    return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "Account", Action = "Register", Id = Usuariovm.Persona1.IDPERSONA }));
                 }
 
 
@@ -113,7 +113,7 @@ namespace blankspaces.Controllers
                 //return RedirectToAction("Index");
                 // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
                 //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = Usuariovm.Persona1.IDPERSONA }));
+                return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "Account", Action = "Register", Id = Usuariovm.Persona1.IDPERSONA }));
             }
 
 
@@ -141,10 +141,10 @@ namespace blankspaces.Controllers
                 //return RedirectToAction("Index");
                 // return RedirectToAction("Create", "USUARIOs", pERSONA.IDPERSONA);
                 //TRABAJAR CON EL OBJETO PERSONA, O QUITARLO
-                return RedirectToAction("Create", new RouteValueDictionary(new { Controller = "USUARIOs", Action = "Create", Id = pERSONA.IDPERSONA }));
+                return RedirectToAction("Register", new RouteValueDictionary(new { Controller = "AccountController", Action = "Register", Id = pERSONA.IDPERSONA }));
             }
 
-            ViewBag.IDDETALLE = new SelectList(db.DETALLEDEPERSONAs, "IDDETALLE", "LUGARDEESTUDIOS", new { id = 5 });
+            
             return View(pERSONA);
         }
 

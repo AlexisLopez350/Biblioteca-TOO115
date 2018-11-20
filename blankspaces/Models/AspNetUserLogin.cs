@@ -12,15 +12,12 @@ namespace blankspaces.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class PRESTAMO
+    public partial class AspNetUserLogin
     {
-        public int IDPRESTAMO { get; set; }
-        public Nullable<decimal> IDMATBIBLIO { get; set; }
-        public string IDUSUARIO { get; set; }
-        public string FECHADEPRESTAMO { get; set; }
-        public string FECHADEENTREGA { get; set; }
+        public string LoginProvider { get; set; }
+        public string ProviderKey { get; set; }
+        public string UserId { get; set; }
     
-        public virtual MATERIALBIBLIOGRAFICO MATERIALBIBLIOGRAFICO { get; set; }
-        public virtual USUARIO USUARIO { get; set; }
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }
